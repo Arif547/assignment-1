@@ -53,6 +53,13 @@ button{
     cursor: pointer;
 }
 
+.sub-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
 
 /* Header */
 
@@ -138,12 +145,12 @@ nav .site-title{
     padding: 24px 0 32px;
 }
 
-.vision-section .vision-boxs{
+.vision-section .vision-boxes{
     display: flex;
     gap: 24px;
 }
 
-.vision-section .vision-boxs .vision-box{
+.vision-section .vision-boxes .vision-box{
     width: 33.333%;
     padding: 32px;
     border-radius: 16px;
@@ -195,33 +202,52 @@ nav .site-title{
     color: rgb(84, 144, 245);
 }
 
-.vision-section .vision-boxs .box-2{
+.vision-section .vision-boxes .box-2{
     background-color: #C6E4D6;
 }
 
 
-.vision-boxs .box-2 .btn-box{
+.vision-boxes .box-2 .btn-box{
     background-color: #09A15C;
     border-color: #09A15C;
 }
 
-.vision-boxs .box-2 .btn-box:hover{
+.vision-boxes .box-2 .btn-box:hover{
     color: #09A15C;
     background-color: transparent;
 }
 
-.vision-section .vision-boxs .box-3{
+.vision-section .vision-boxes .box-3{
     background-color: #F7EBCF;
 }
 
 
-.vision-boxs .box-3 .btn-box{
+.vision-boxes .box-3 .btn-box{
     background-color: #FFC239;
     border-color: #FFC239;
 }
 
-.vision-boxs .box-3 .btn-box:hover{
+.vision-boxes .box-3 .btn-box:hover{
     color: #FFC239;
     background-color: transparent;
 }
 
+/* Quote */
+
+.quote{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 48px 24px 48px 24px;
+}
+
+.quote .name{
+    padding: 12px 0 4px;
+}
+
+.quote .position{
+    color: rgba(14, 14, 14, 0.6);
+}
