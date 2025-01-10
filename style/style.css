@@ -36,6 +36,22 @@ body{
     color: #006A50;
 }
 
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button{
+    cursor: pointer;
+}
 
 
 /* Header */
@@ -81,13 +97,14 @@ nav .site-title{
     padding: 80px 60px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
+    margin-top: 20px;
 }
 
 .hero-box .hero-content{
     width: 600px;
 }
 
-.hero-content .subtitle{
+.hero-content .text{
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
@@ -109,5 +126,102 @@ nav .site-title{
     width: 100%;
     height: 400px;
     object-fit: cover;
+}
+
+/* vision section */
+
+.vision-section{
+    padding: 80px 0 32px;
+}
+
+.vision-section .description{
+    padding: 24px 0 32px;
+}
+
+.vision-section .vision-boxs{
+    display: flex;
+    gap: 24px;
+}
+
+.vision-section .vision-boxs .vision-box{
+    width: 33.333%;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.vision-box img{
+    width: 62px;
+    height: 62px;
+}
+
+.vision-box .box-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 24px 0 12px;
+}
+
+.vision-box .box-text{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+
+.vision-box .btn-box{
+    padding: 10px 19px 10px 19px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    background: rgb(84, 144, 245);    
+    border: 1px solid rgb(84, 144, 245);
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.vision-box .btn-box:hover{
+    background-color: transparent;
+    color: rgb(84, 144, 245);
+}
+
+.vision-section .vision-boxs .box-2{
+    background-color: #C6E4D6;
+}
+
+
+.vision-boxs .box-2 .btn-box{
+    background-color: #09A15C;
+    border-color: #09A15C;
+}
+
+.vision-boxs .box-2 .btn-box:hover{
+    color: #09A15C;
+    background-color: transparent;
+}
+
+.vision-section .vision-boxs .box-3{
+    background-color: #F7EBCF;
+}
+
+
+.vision-boxs .box-3 .btn-box{
+    background-color: #FFC239;
+    border-color: #FFC239;
+}
+
+.vision-boxs .box-3 .btn-box:hover{
+    color: #FFC239;
+    background-color: transparent;
 }
 
