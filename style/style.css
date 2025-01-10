@@ -1,0 +1,52 @@
+/* Global Style */
+
+*{
+    font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
+    color: #0E0E0E;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+/* Header */
+
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+nav .site-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.btn-hd{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #006A50;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+}
+
+.btn-hd:hover{
+    background-color: #006A50;
+    color: white;
+}
