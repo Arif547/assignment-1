@@ -135,6 +135,36 @@ nav .site-title{
     object-fit: cover;
 }
 
+/* pillars-container */
+.pillars-container{
+    padding-top: 80px;
+}
+
+.pillars-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.pillars-card{
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 25%;
+    height: 248px;
+    box-sizing: border-box;
+
+}
+
+.pillars-card .box-title{
+    margin: 24px 0 12px;
+}
+
+
+
 /* vision section */
 
 .vision-section{
