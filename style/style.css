@@ -416,7 +416,10 @@ nav .site-title{
     background: rgb(255, 255, 255);
     width: 600px;
     border: 0;
-    padding: 17px 40px 17px 40px; 
+    padding: 17px 40px 17px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px; 
 }
 
 .newsletter form input[type=email]::placeholder{
